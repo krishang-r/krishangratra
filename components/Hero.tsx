@@ -23,7 +23,7 @@ const Hero = () => {
               className='w-[50%] mx-auto'
               words="Somewhere between caffeine and creativity, you'll find me building things that matter."
             />
-            <div className='w-[30%] mx-auto my-4 flex items-center justify-around px-2 text-center font-bold'>
+            <div className='w-[30%] mx-auto my-4 flex items-center justify-around text-center font-bold'>
               <a href="/files/Resume.pdf" download>
               <button className="p-[3px] relative w-[200px] cursor-pointer">
                 <div className="absolute inset-0 bg-gradient-to-r from-blue-400 to-blue-600 rounded-lg" />
