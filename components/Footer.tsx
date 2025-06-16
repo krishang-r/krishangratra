@@ -16,7 +16,7 @@ const socialLinks = [
   },
   {
     name: 'LinkedIn',
-    href: 'www.linkedin.com/in/krishang-ratra',
+    href: 'https://www.linkedin.com/in/krishang-ratra',
     bw: '/logo/linkedin-bw.png',
     color: '/logo/linkedin-color.png',
   },
