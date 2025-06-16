@@ -6,7 +6,7 @@ import { IoIosSend } from "react-icons/io"
 
 const Hero = () => {
   return (
-    <div className='relative h-screen overflow-hidden '>
+    <div className='relative min-h-screen'>
       <BackgroundGradientAnimation
         gradientBackgroundStart='rgb(255,255,255)'
         gradientBackgroundEnd='rgb(255,255,255)'
@@ -45,6 +45,7 @@ const Hero = () => {
         </div>
         {/* <h2 className='absolute bottom-4'>Scroll to see more!!</h2> */}
       </div>
+      <div className="absolute bottom-0 left-0 w-full h-24 bg-gradient-to-b from-transparent to-white pointer-events-none z-10" />
     </div>
   )
 } 
