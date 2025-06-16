@@ -6,7 +6,7 @@ import { IoIosSend } from "react-icons/io"
 
 const Hero = () => {
   return (
-    <div className='relative h-screen overflow-hidden'>
+    <div className='relative h-screen overflow-hidden '>
       <BackgroundGradientAnimation
         gradientBackgroundStart='rgb(255,255,255)'
         gradientBackgroundEnd='rgb(255,255,255)'
