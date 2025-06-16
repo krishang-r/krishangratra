@@ -1,5 +1,4 @@
 import React from 'react'
-import { BentoGrid } from './ui/bento-grid'
 import { BentoGridDemo } from './ui/grid-layout'
 
 const Projects = () => {
