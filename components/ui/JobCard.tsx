@@ -20,16 +20,19 @@ const JobCard = ({ companyName, role, from, to, location, description }: JobCard
                 {from} - {to}
             </div>
             <div className="flex flex-col items-end text-gray-600">
-                <div className="flex items-center space-x-1">
+                <div className="flex justify-center items-center space-x-1">
                     <HiOutlineLocationMarker className="text-base" />
                     <span>{location}</span>
                 </div>
             </div>
         </div>
-        
-        <p className="text-md text-slate-600 leading-relaxed">
+        <div className='hidden md:block'>
+          <p className="text-md text-slate-600 leading-relaxed ">
             {description}  
         </p>
+        </div>
+        
+        
     </div>
 
   )

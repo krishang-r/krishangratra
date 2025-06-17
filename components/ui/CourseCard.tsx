@@ -13,7 +13,7 @@ const CourseCard = ({ title, org, validity, orgLogo }: CourseCardProps) => {
       <div className="flex justify-between items-stretch mb-2">
         {/* Left Section */}
         <div>
-          <h3 className="text-3xl font-semibold text-blue-600">{title}</h3>
+          <h3 className="text-2xl md:text-3xl font-semibold text-blue-600">{title}</h3>
           <h4 className="text-xl text-slate-800 mb-1 font-bold">
             <span className='font-normal'>Issued by: </span>{org}
           </h4>
