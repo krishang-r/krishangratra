@@ -21,7 +21,7 @@ const Hero = () => {
             </h1>
             <TextGenerateEffect
               className='md:w-[50%] w-[90%] mx-auto' // Adjusted width for small screens
-              words="Somewhere between caffeine and caffeine and creativity, you'll find me building things that matter."
+              words="Somewhere between caffeine and creativity, you'll find me building things that matter."
             />
             {/* THIS IS THE CRUCIAL CHANGE FOR BUTTONS */}
             <div className='flex flex-col md:flex-row items-center justify-center gap-4 my-4 font-bold max-w-full mx-auto p-4'>
