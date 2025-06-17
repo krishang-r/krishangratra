@@ -16,7 +16,7 @@ const Hero = () => {
       <div className="absolute inset-0">
         <div className='flex items-center justify-center px-4 text-center h-screen mt-auto'>
           <div>
-            <h1 className='text-7xl font-extrabold uppercase' style={{ color: 'var(--primary)' }}>
+            <h1 className='text-6xl md:text-7xl font-extrabold uppercase' style={{ color: 'var(--primary)' }}>
               Krishang Ratra
             </h1>
             <TextGenerateEffect
@@ -24,9 +24,9 @@ const Hero = () => {
               words="Somewhere between caffeine and creativity, you'll find me building things that matter."
             />
             {/* THIS IS THE CRUCIAL CHANGE FOR BUTTONS */}
-            <div className='flex flex-col md:flex-row items-center justify-center gap-4 my-4 font-bold max-w-full mx-auto p-4'>
+            <div className='flex flex-col md:flex-row items-center justify-center gap-4 mt-4 font-bold max-w-full mx-auto p-4'>
               <a href="/files/Resume.pdf" download className="w-full md:w-[200px]"> {/* Make link full width on small screens */}
-                <button className="p-[3px] relative w-full cursor-pointer"> {/* Button takes full width of its parent link */}
+                <button className="p-[3px] relative w-2/3 md:w-full cursor-pointer"> {/* Button takes full width of its parent link */}
                   <div className="absolute inset-0 bg-gradient-to-r from-blue-400 to-blue-600 rounded-lg" />
                   <div className="px-8 py-2 bg-transparent rounded-[6px] relative group transition duration-200 text-white hover:text-xl">
                     RESUME <span><IoMdDownload className='inline-block -mt-1 p-0' /></span>
@@ -34,7 +34,7 @@ const Hero = () => {
                 </button>
               </a>
               <a href="mailto:ratrakrishang@gmail.com" className="w-full md:w-[200px]"> {/* Make link full width on small screens */}
-                <button className="p-[3px] relative w-full cursor-pointer"> {/* Button takes full width of its parent link */}
+                <button className="p-[3px] relative w-2/3 md:w-full cursor-pointer"> {/* Button takes full width of its parent link */}
                   <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-blue-400 rounded-lg" />
                   <div className="px-8 py-2 bg-transparent rounded-[6px] relative group transition duration-200 text-white hover:text-xl">
                     MAIL <IoIosSend className='inline-block -mt-1 p-0' />
