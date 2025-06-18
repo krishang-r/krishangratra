@@ -9,23 +9,23 @@ type CourseCardProps = {
 
 const CourseCard = ({ title, org, validity, orgLogo }: CourseCardProps) => {
   return (
-    <div className="w-[70%] min-h-[100px] mx-auto my-7 bg-slate-50 border border-blue-600 rounded-lg p-6 shadow-md hover:shadow-xl hover:scale-103 transition-all duration-300">
-      <div className="flex justify-between items-stretch mb-2">
+    <div className="w-[90%] md:w-[70%] min-h-[100px] mx-auto my-7 bg-slate-50 border border-blue-600 rounded-lg p-6 shadow-md hover:shadow-xl hover:scale-[1.03] transition-all duration-300">
+      <div className="flex flex-col sm:flex-row justify-between items-center sm:items-stretch gap-4">
         {/* Left Section */}
-        <div>
-          <h3 className="text-2xl md:text-3xl font-semibold text-blue-600">{title}</h3>
-          <h4 className="text-xl text-slate-800 mb-1 font-bold">
+        <div className="text-center sm:text-left">
+          <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold text-blue-600">{title}</h3>
+          <h4 className="text-lg sm:text-xl text-slate-800 mb-1 font-bold">
             <span className='font-normal'>Issued by: </span>{org}
           </h4>
-          {validity}
+          <p className="text-base text-black">{validity}</p>
         </div>
 
         {/* Right Section with Centered Logo */}
-        <div className="flex items-center mt-2">
+        <div className="flex justify-center sm:items-center">
           <img
-            src={`/logo/${orgLogo}`} // Assuming image is in /public/logo/
+            src={`/logo/${orgLogo}`}
             alt={`${org} logo`}
-            className="w-20 h-20 object-contain"
+            className="w-16 sm:w-20 h-auto object-contain"
           />
         </div>
       </div>

@@ -24,7 +24,7 @@ const EducationCard = ({ institute, location, degree, duration, cgpa, image }: E
         </div>
 
         {/* Right Section */}
-        <div className="max-w-[35%] h-100 flex items-center justify-center">
+        <div className="max-w-[80%] md:max-w-[35%] h-100 flex items-center justify-center">
           <img
             src={`/education/${image}`}
             alt={`${institute} logo`}
