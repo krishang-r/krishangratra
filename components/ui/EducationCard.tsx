@@ -14,7 +14,7 @@ const EducationCard = ({ institute, location, degree, duration, cgpa, image }: E
     <div className="w-[80%] mx-auto my-8">
       <div className="flex flex-col md:flex-row justify-between items-center gap-6">
         {/* Left Section */}
-        <div className="text-left">
+        <div className="text-left w-full">
           <h3 className="text-2xl font-semibold text-blue-700">{institute}</h3>
           <p className="text-sm text-gray-600 mb-1">{location}</p>
           <p className="text-base text-gray-800">{degree}</p>
