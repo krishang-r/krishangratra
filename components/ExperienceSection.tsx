@@ -32,6 +32,12 @@ const ExperienceSection = () => {
         Courses & Certifications
       </div>
       <CourseCard
+        title='Oracle Cloud Infrastructure 2025 Certified Generative AI Professional'
+        org='Oracle'
+        validity='July 2025 - July 2027'
+        orgLogo='oracle.png'
+      />
+      <CourseCard
         title='AWS Certified Cloud Practitioner'
         org='Amazon Web Services'
         validity='June 2025 - June 2028'
