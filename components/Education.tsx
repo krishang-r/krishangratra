@@ -11,7 +11,7 @@ const Education = () => {
             institute='Vellore Institute of Technology'
             location='Vellore, Tamil Nadu, India'
             degree='Bachelors of Technology in Computer Science and Engineering (BTech CSE)'
-            cgpa="CGPA: 8.63"
+            cgpa="CGPA: 8.71"
             image='VIT.jpeg'
             duration='2022-2026'
         />

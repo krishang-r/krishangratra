@@ -12,6 +12,22 @@ const ExperienceSection = () => {
         Professional Journey
       </div>
       <JobCard 
+        companyName={"Data Science Wizards"}
+        role={"Data Science Intern"}
+        from={"Jan 2026"}
+        to={"Present"}
+        location={"Thane, Maharashtra, India"}
+        description={"Currently working as a Data Science Intern at Data Science Wizards, gaining hands-on experience in AI/ML applications and computer vision. Exploring practical use cases, tools, and techniques to develop data-driven solutions and intelligent systems."}
+      />
+      <JobCard 
+        companyName={"Samsung R&D Institute"}
+        role={"Samsung PRISM Intern"}
+        from={"July 2025"}
+        to={"Jan 2026"}
+        location={"Online"}
+        description={"Completed a 6-month online research internship under the Samsung PRISM Program, collaborating with a team on smart device technologies. Researched and developed solutions for 'Room Detection Using Smart Devices'"}
+      />
+      <JobCard 
         companyName={"Fortis Healthcare Limited"}
         role={"Software Intern"}
         from={"June 2024"}
